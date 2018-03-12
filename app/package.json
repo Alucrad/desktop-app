@@ -1,0 +1,22 @@
+{
+    "name": "inventaris-elektro",
+    "productName": "Inventaris Laboratorium Informatika",
+    "companyDomain": "cooem.id",
+    "bundleID": "id.cooem.inventaris-it",
+    "companyName": "Politeknik Negeri Pontianak",
+    "version": "0.0.1",
+    "main": "./main.js",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/alucrad/ili-desktop.git"
+    },
+    "bugs": {
+        "url": "https://gitlab.com/alucrad/ili-desktop/issues"
+    },
+    "description": "",
+    "author": {
+        "name": "Dwiki Riyadi",
+        "email": "wiki.riyadi@gmail.com"
+    },
+    "license": "MIT"
+}

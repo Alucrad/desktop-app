@@ -1,0 +1,30 @@
+{
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Alucrad/desktop-app.git"
+    },
+    "description": "Desktop App development dependencies",
+    "scripts": {
+        "postinstall": "cd app && npm install && cd ..",
+        "start": "npm run build:dev &&",
+        "start:prod": "npm run build:prod &&",
+        "build:dev": "npm run compile:dev &&",
+        "build:prod": "npm run compile:prod &&",
+        "compile:dev": "clean:out &&",
+        "compile:prod": "clean:out &&",
+        "clean:out": "",
+        "package:win32": "",
+        "package:darwin": "",
+        "package:linux": "",
+        "clean:dist": ""
+    },
+    "author": {
+        "name": "Dwiki Riyadi",
+        "email": "wiki.riyadi@gmail.com"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">= 7"
+    }
+}
